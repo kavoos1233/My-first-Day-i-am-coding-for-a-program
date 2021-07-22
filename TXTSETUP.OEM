@@ -1,0 +1,685 @@
+; Copyright (c) 2003-12 Intel Corporation
+;#############################################################################
+;#
+;#    Filename:  TXTSETUP.OEM
+;#
+;#############################################################################
+[Disks]
+disk1 = "Intel(R) Rapid Storage Technology Driver", iaStor.sys, \
+
+[Defaults]
+scsi = iaStor_Express_M
+
+;#############################################################################
+[scsi]
+
+; iaAHCI.inf
+iaAHCI_ESB2         = "Intel(R) SATA AHCI Controller DEV_2681 added by Fernando"
+iaAHCI_ICH7R        = "Intel(R) SATA AHCI Controller DEV_27C1"
+iaAHCI_ICH7M        = "Intel(R) SATA AHCI Controller DEV_27C5"
+iaAHCI_ICH8R        = "Intel(R) SATA AHCI Controller DEV_2821 added by Fernando"
+iaAHCI_ICH8_1       = "Intel(R) SATA AHCI Controller DEV_2824 added by Fernando"
+iaAHCI_ICH8M        = "Intel(R) SATA AHCI Controller DEV_2829 added by Fernando"
+iaAHCI_ICH9R        = "Intel(R) SATA AHCI Controller DEV_2922 added by Fernando"
+iaAHCI_ICH9_1       = "Intel(R) SATA AHCI Controller DEV_2923 added by Fernando"
+iaAHCI_ICH9M        = "Intel(R) SATA AHCI Controller DEV_2929"
+iaAHCI_ICH10D       = "Intel(R) SATA AHCI Controller DEV_3A02"
+iaAHCI_ICH10_1      = "Intel(R) SATA AHCI Controller DEV_3A03 added by Fernando"
+iaAHCI_ICH10R       = "Intel(R) SATA AHCI Controller DEV_3A22"
+iaAHCI_ICH10_2      = "Intel(R) SATA AHCI Controller DEV_3A23 added by Fernando"
+iaAHCI_5            = "Intel(R) SATA AHCI Controller DEV_3B29"
+iaAHCI_5_1          = "Intel(R) SATA AHCI Controller DEV_3B2F"
+iaAHCI_5_1_1        = "Intel(R) SATA AHCI Controller DEV_3B22"
+iaAHCI_6_Desktop    = "Intel(R) SATA AHCI Controller DEV_1C02"
+iaAHCI_6_Mobile     = "Intel(R) SATA AHCI Controller DEV_1C03"
+iaAHCI_AC600        = "Intel(R) SATA AHCI Controller DEV_1D02 added by Fernando"
+iaAHCI_AC600_1      = "Intel(R) SATA AHCI Controller DEV_8D02 added by Fernando"
+iaAHCI_AC600_2      = "Intel(R) SATA AHCI Controller DEV_8D62 added by Fernando"
+iaAHCI_AC600_3      = "Intel(R) SATA AHCI Controller DEV_1F22 added by Fernando"
+iaAHCI_AC600_4      = "Intel(R) SATA AHCI Controller DEV_1F32 added by Fernando"
+iaAHCI_SM35         = "Intel(R) SATA AHCI Controller DEV_0816 added by Fernando"
+iaAHCI_BAYTR        = "Intel(R) SATA AHCI Controller DEV_0F23 added by Fernando"
+iaAHCI_BAYTR_1      = "Intel(R) SATA AHCI Controller DEV_22A3 added by Fernando"
+iaAHCI_APOL         = "Intel(R) SATA AHCI Controller DEV_5AE3 added by Fernando"
+iaAHCI_GEML         = "Intel(R) SATA AHCI Controller DEV_31E3 added by Fernando"
+iaAHCI_7            = "Intel(R) SATA AHCI Controller DEV_1E02"
+iaAHCI_7_1          = "Intel(R) SATA AHCI Controller DEV_1E03"
+iaAHCI_8            = "Intel(R) SATA AHCI Controller DEV_8C02 added by Fernando"
+iaAHCI_8_1          = "Intel(R) SATA AHCI Controller DEV_8C03 added by Fernando"
+iaAHCI_8_2          = "Intel(R) SATA AHCI Controller DEV_9C02 added by Fernando"
+iaAHCI_8_3          = "Intel(R) SATA AHCI Controller DEV_9C03 added by Fernando"
+iaAHCI_9            = "Intel(R) SATA AHCI Controller DEV_8C82 added by Fernando"
+iaAHCI_9_1          = "Intel(R) SATA AHCI Controller DEV_8C83 added by Fernando"
+iaAHCI_9_2          = "Intel(R) SATA AHCI Controller DEV_9C82 added by Fernando"
+iaAHCI_9_3          = "Intel(R) SATA AHCI Controller DEV_9C83 added by Fernando"
+iaAHCI_9_D          = "Intel(R) SATA AHCI Controller DEV_9D03 added by Fernando"
+iaAHCI_100          = "Intel(R) SATA AHCI Controller DEV_A102 added by Fernando"
+iaAHCI_100_1        = "Intel(R) SATA AHCI Controller DEV_A103 added by Fernando"
+iaAHCI_200          = "Intel(R) SATA AHCI Controller DEV_A282 added by Fernando"
+iaAHCI_9_DD         = "Intel(R) SATA AHCI Controller DEV_9DD3 added by Fernando"
+iaAHCI_300          = "Intel(R) SATA AHCI Controller DEV_A352 added by Fernando"
+iaAHCI_300_1        = "Intel(R) SATA AHCI Controller DEV_A353 added by Fernando"
+iaAHCI_300_2	    = "Intel(R) SATA AHCI Controller DEV_34D3 added by Fernando"
+iaAHCI_400	    = "Intel(R) SATA AHCI Controller DEV_02D3 added by Fernando"
+iaAHCI_400_1	    = "Intel(R) SATA AHCI Controller DEV_06D2 added by Fernando"
+iaAHCI_400_2	    = "Intel(R) SATA AHCI Controller DEV_06D3 added by Fernando"
+iaAHCI_400_3	    = "Intel(R) SATA AHCI Controller DEV_A382 added by Fernando"
+
+; iaStor.inf
+iaStor_ESB2         = "Intel(R) SATA RAID Controller DEV_2682 added by Fernando"
+iaStor_ICH7R        = "Intel(R) SATA RAID Controller DEV_27C3"
+iaStor_ICH7M        = "Intel(R) SATA RAID Controller DEV_27C6"
+iaStor_Express_D    = "Intel(R) SATA RAID Controller DEV_2822"
+iaStor_Express_M    = "Intel(R) SATA RAID Controller DEV_282A"
+iaStor_C600_D       = "Intel(R) SATA RAID Controller DEV_2826 added by Fernando"
+iaStor_C600_M       = "Intel(R) SATA RAID Controller DEV_2827 added by Fernando"
+iaStor_9_D          = "Intel(R) SATA RAID Controller DEV_9D07 added by Fernando"
+iaStor_100          = "Intel(R) SATA RAID Controller DEV_A106 added by Fernando"
+iaStor_100_1        = "Intel(R) SATA RAID Controller DEV_A107 added by Fernando"
+iaStor_200          = "Intel(R) SATA RAID Controller DEV_A286 added by Fernando"
+iaStor_200_1        = "Intel(R) SATA RAID Controller DEV_A28E added by Fernando"
+iaStor_9_DD         = "Intel(R) SATA RAID Controller DEV_9DD7 added by Fernando"
+iaStor_300          = "Intel(R) SATA RAID Controller DEV_A356 added by Fernando"
+iaStor_300_1        = "Intel(R) SATA RAID Controller DEV_A357 added by Fernando"
+iaStor_300_2	    = "Intel(R) SATA RAID Controller DEV_A35E added by Fernando"
+iaStor_400	    = "Intel(R) SATA RAID Controller DEV_34D7 added by Fernando"
+iaStor_400_1	    = "Intel(R) SATA RAID Controller DEV_02D7 added by Fernando"
+iaStor_400_2	    = "Intel(R) SATA RAID Controller DEV_06D6 added by Fernando"
+iaStor_400_3	    = "Intel(R) SATA RAID Controller DEV_06D7 added by Fernando"
+iaStor_400_4	    = "Intel(R) SATA RAID Controller DEV_06DE added by Fernando"
+iaStor_400_5	    = "Intel(R) SATA RAID Controller DEV_A386 added by Fernando"
+
+;#############################################################################
+
+; iaAHCI.inf
+[Files.scsi.iaAHCI_ESB2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH7R]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH7M]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH8R]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH8_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH8M]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH9R]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH9_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH9M]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH10D]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH10R]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH10_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_ICH10_2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_5]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_5_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_5_1_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_6_Desktop]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_6_Mobile]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_AC600]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_AC600_1]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_AC600_2]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_AC600_3]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_AC600_4]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_SM35]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_BAYTR]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_BAYTR_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_APOL]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_GEML]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_7]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_7_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_8]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_8_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_8_2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_8_3]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_9]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_9_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_9_2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_9_3]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_9_D]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_100]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_100_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_200]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_9_DD]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_300]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_300_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_300_2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_400]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_400_1]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_400_2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+[Files.scsi.iaAHCI_400_3]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaAHCI.inf
+catalog = disk1, iaAHCI.cat
+
+
+; iaStor.inf
+[Files.scsi.iaStor_ESB2]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_ICH7R]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_ICH7M]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_Express_D]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_Express_M]
+driver = disk1, iaStor.sys, iaStor
+inf = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_C600_D]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_C600_M]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_9_D]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_100]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_100_1]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_200]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_200_1]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_9_DD]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_300]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_300_1]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_300_2]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_400]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_400_1]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_400_2]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_400_3]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_400_4]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+[Files.scsi.iaStor_400_5]
+driver = disk1, iaStor.sys, iaStor
+inf    = disk1, iaStor.inf
+catalog = disk1, iaStor.cat
+
+;#############################################################################
+[Config.iaStor]
+value = "", tag, REG_DWORD, 1b
+value = "", ErrorControl, REG_DWORD, 1
+value = "", Group, REG_SZ, "SCSI Miniport"
+value = "", Start, REG_DWORD, 0
+value = "", Type, REG_DWORD, 1
+
+;#############################################################################
+
+; iaAHCI.inf
+[HardwareIds.scsi.iaAHCI_ESB2]
+id = "PCI\VEN_8086&DEV_2681&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH7R]
+id = "PCI\VEN_8086&DEV_27C1&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH7M]
+id = "PCI\VEN_8086&DEV_27C5&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH8R]
+id = "PCI\VEN_8086&DEV_2821&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH8_1]
+id = "PCI\VEN_8086&DEV_2824&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH8M]
+id = "PCI\VEN_8086&DEV_2829&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH9R]
+id = "PCI\VEN_8086&DEV_2922&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH9_1]
+id = "PCI\VEN_8086&DEV_2923&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH9M]
+id = "PCI\VEN_8086&DEV_2929&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH10D]
+id = "PCI\VEN_8086&DEV_3A02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH10R]
+id = "PCI\VEN_8086&DEV_3A22&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH10_1]
+id = "PCI\VEN_8086&DEV_3A03&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_ICH10_2]
+id = "PCI\VEN_8086&DEV_3A23&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_5]
+id = "PCI\VEN_8086&DEV_3B29&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_5_1]
+id = "PCI\VEN_8086&DEV_3B2F&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_5_1_1]
+id = "PCI\VEN_8086&DEV_3B22&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_6_Desktop]
+id = "PCI\VEN_8086&DEV_1C02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_6_Mobile]
+id = "PCI\VEN_8086&DEV_1C03&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_AC600]
+id = "PCI\VEN_8086&DEV_1D02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_AC600_1]
+id = "PCI\VEN_8086&DEV_8D02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_AC600_2]
+id = "PCI\VEN_8086&DEV_8D62&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_AC600_3]
+id = "PCI\VEN_8086&DEV_1F22&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_AC600_4]
+id = "PCI\VEN_8086&DEV_1F32&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_SM35]
+id = "PCI\VEN_8086&DEV_0816&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_BAYTR]
+id = "PCI\VEN_8086&DEV_0F23&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_BAYTR_1]
+id = "PCI\VEN_8086&DEV_22A3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_APOL]
+id = "PCI\VEN_8086&DEV_5AE3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_GEML]
+id = "PCI\VEN_8086&DEV_31E3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_7]
+id = "PCI\VEN_8086&DEV_1E02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_7_1]
+id = "PCI\VEN_8086&DEV_1E03&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_8]
+id = "PCI\VEN_8086&DEV_8C02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_8_1]
+id = "PCI\VEN_8086&DEV_8C03&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_8_2]
+id = "PCI\VEN_8086&DEV_9C02&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_8_3]
+id = "PCI\VEN_8086&DEV_9C03&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_9]
+id = "PCI\VEN_8086&DEV_8C82&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_9_1]
+id = "PCI\VEN_8086&DEV_8C83&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_9_2]
+id = "PCI\VEN_8086&DEV_9C82&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_9_3]
+id = "PCI\VEN_8086&DEV_9C83&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_9_D]
+id = "PCI\VEN_8086&DEV_9D03&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_100]
+id = "PCI\VEN_8086&DEV_A102&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_100_1]
+id = "PCI\VEN_8086&DEV_A103&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_200]
+id = "PCI\VEN_8086&DEV_A282&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_9_DD]
+id = "PCI\VEN_8086&DEV_9DD3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_300]
+id = "PCI\VEN_8086&DEV_A352&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_300_1]
+id = "PCI\VEN_8086&DEV_A353&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_300_2]
+id = "PCI\VEN_8086&DEV_34D3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_400]
+id = "PCI\VEN_8086&DEV_02D3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_400_1]
+id = "PCI\VEN_8086&DEV_06D2&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_400_2]
+id = "PCI\VEN_8086&DEV_06D3&CC_0106","iaStor"
+
+[HardwareIds.scsi.iaAHCI_400_3]
+id = "PCI\VEN_8086&DEV_A382&CC_0106","iaStor"
+
+
+; iaStor.inf
+[HardwareIds.scsi.iaStor_ESB2]
+id = "PCI\VEN_8086&DEV_2682&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_ICH7R]
+id = "PCI\VEN_8086&DEV_27C3&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_ICH7M]
+id = "PCI\VEN_8086&DEV_27C6&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_Express_D]
+id = "PCI\VEN_8086&DEV_2822&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_Express_M]
+id = "PCI\VEN_8086&DEV_282A&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_C600_D]
+id = "PCI\VEN_8086&DEV_2826&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_C600_M]
+id = "PCI\VEN_8086&DEV_2827&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_9_D]
+id = "PCI\VEN_8086&DEV_9D07&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_100]
+id = "PCI\VEN_8086&DEV_A106&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_100_1]
+id = "PCI\VEN_8086&DEV_A107&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_200]
+id = "PCI\VEN_8086&DEV_A286&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_200_1]
+id = "PCI\VEN_8086&DEV_A28E&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_9_DD]
+id = "PCI\VEN_8086&DEV_9DD7&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_300]
+id = "PCI\VEN_8086&DEV_A356&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_300_1]
+id = "PCI\VEN_8086&DEV_A357&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_300_2]
+id = "PCI\VEN_8086&DEV_A35E&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_400]
+id = "PCI\VEN_8086&DEV_34D7&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_400_1]
+id = "PCI\VEN_8086&DEV_02D7&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_400_2]
+id = "PCI\VEN_8086&DEV_06D6&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_400_3]
+id = "PCI\VEN_8086&DEV_06D7&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_400_4]
+id = "PCI\VEN_8086&DEV_06DE&CC_0104","iaStor"
+
+[HardwareIds.scsi.iaStor_400_5]
+id = "PCI\VEN_8086&DEV_A386&CC_0104","iaStor"
+
